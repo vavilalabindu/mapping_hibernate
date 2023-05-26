@@ -51,7 +51,7 @@ public class App
     	List<student> li=qu.getResultList();//or you can use qu.list();
     	for(student m:li)
     	{
-    		System.out.println(m.getStuName());
+    		System.out.println(m.getStuName()+" has "+m.getBike().getBikeName() );
     	}
     	
     

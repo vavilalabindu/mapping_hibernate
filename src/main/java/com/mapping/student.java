@@ -15,6 +15,7 @@ public class student {
 	
 	@OneToOne
 	private bike bike;
+	
 	public int getStuId() {
 		return stuId;
 	}
